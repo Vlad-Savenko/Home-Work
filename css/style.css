@@ -1,0 +1,266 @@
+@font-face{
+    font-family: 'Radley';
+    src: url(/fonts/Radley-Regular.woff) format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: 'Arial';
+    src: url(/fonts/ArialRegular/ArialMT.woff) format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(/fonts/Poppins-Bold.woff) format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(/fonts/Poppins-Regular.woff) format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-size: normal;
+}
+
+body {
+    font-family: 'Radley', sans-serif;
+    font-weight: 400;
+}
+
+.nav{
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover{
+    color: #fff;
+}
+
+main{
+    max-height: 1820px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 1024px;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+
+.link{
+    font-weight: 400;    
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {  
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(255,179,179);
+}
+
+.header-scrolled{
+    opacity: 0.4;
+  
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1275px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url("img/bc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;     
+    min-height: 945px;
+} 
+
+.hero-content{
+    max-width: 615px;
+}
+
+.hero-title{
+    display: inline-block;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 91px;
+    color: #fff; 
+}
+
+.hero-subtitle{
+    display: inline-block;
+    margin-bottom: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.logo-evolution{
+    display: inline-block;
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.logo-evolution-img{
+    margin-bottom: 22px;
+}
+
+.container .newsroom-conteiner{
+    max-width: 1275px;
+}
+
+.newsroom{
+    
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 68px;
+    color: #000000;
+    padding-top: 60px;
+    padding-bottom: 186px;
+}
+
+.newsroom-title {
+    text-align: center;
+}
+
+.newsroom-list{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Radley;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000; 
+    text-decoration: none;
+}
+
+.newsroom-list img{
+    width: 324px;
+}
+
+.newsroom-list p{
+    margin-right: 90px;
+    text-decoration: none;
+    color: black;
+}
+
+.auto{
+    position: relative;
+    top: -140px;
+    background-color: #F3F3F3;
+    width: 88%;
+    padding: 70px 0;
+}
+
+.auto-title{
+    margin: 0;
+    max-width: 984px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 144px;
+    color: #000000;
+}
+
+.footer{
+    color: #fff;
+    background-color: #553737;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-top{
+    display: grid;
+    gap: 142px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 224px;
+}
+
+.footer-column{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer-title{
+    margin: 0;
+    margin-bottom: 53px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF
+}
+
+.footer-link{
+    margin-bottom: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #fff;
+    }
+
+.footer-bottom {
+    padding-top: 149px;
+    padding-bottom: 66px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.66;
+}
+
+video{
+    width: 600px;
+    padding: 5% 30%;
+}
